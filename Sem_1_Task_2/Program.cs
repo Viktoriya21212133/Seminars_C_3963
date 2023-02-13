@@ -17,10 +17,10 @@ if (Number1 !=null && Number2 !=null)
   //Вводим проверку условия большее-меньшее
   if (num1>num2)
 
-   Console.WriteLine("the first number is greater than the second");
+   Console.WriteLine("the first number is greater than the second"); // Первое число больше второго 
 
  else
  
-  Console.WriteLine("the second number is greater than the first");
+  Console.WriteLine("the second number is greater than the first"); //Второе число больше первого 
  
 }
