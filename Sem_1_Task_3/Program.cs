@@ -39,18 +39,3 @@ Console.WriteLine (WeekDay [DayNumber-1]);
 
 
 
-
-
-//Выполняем условие задачи
-//string [] WeekDay = WeekDay [7];
-//WeekDay[0] = "Monday";
-//WeekDay[1] = "Tuesday";
-//WeekDay[2] = "Wednesday";
-//WeekDay[3] = "Thursday";
-//WeekDay[4] = "Friday";
-//WeekDay[5] = "Saturday";
-//WeekDay[6] = "Sunday";
-//}
-//Выводим на экран значение дня недели 
-//Console.WriteLine (WeekDay[DayNumber-1]);
-//}
