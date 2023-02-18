@@ -5,7 +5,7 @@ System.Random numSintezator = new System.Random ();
 // Определяем переменную, в которую положим случайное число
 int num = numSintezator.Next (100,1000);
 // посмотрим, какое число выдаст 
-Console.WriteLine(num);
+Console.WriteLine("Random number: "+num);
 // Получим третью цифру
 int lastNum = num%10;
 // Получим первую цифру
