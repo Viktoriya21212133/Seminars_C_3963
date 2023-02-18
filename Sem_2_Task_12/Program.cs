@@ -10,6 +10,7 @@ Console.WriteLine ("Inter second number: ");
 int SecondNum = int.Parse(Console.ReadLine()??"0"); 
 // or - int SecondNum = Convert.ToInt32 (Console.ReadLine()); 
 
+
 // входим в цикл проверки
 if (FirstNum/SecondNum == 0)
 {
