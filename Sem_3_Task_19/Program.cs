@@ -7,7 +7,7 @@ Dictionary <int, string> palindrome = new Dictionary <int, string>();
 
 palindrome.Add (1001, "This number is palindrome"); palindrome.Add (2002, "This number is palindrome"); palindrome.Add (3003, "This number is palindrome");
 palindrome.Add (4004, "This number is palindrome"); palindrome.Add (5005, "This number is palindrome"); palindrome.Add (6006, "This number is palindrome");
-palindrome.Add (7007, "- This number is palindrome"); palindrome.Add (8008, "This number is palindrome"); palindrome.Add (9009, "This number is palindrome");
+palindrome.Add (7007, "This number is palindrome"); palindrome.Add (8008, "This number is palindrome"); palindrome.Add (9009, "This number is palindrome");
 
 palindrome.Add (1111, "This number is palindrome"); palindrome.Add (2112, "This number is palindrome"); palindrome.Add (3113, "This number is palindrome");
 palindrome.Add (4114, "This number is palindrome"); palindrome.Add (5115, "This number is palindrome"); palindrome.Add (6116, "This number is palindrome");
@@ -23,7 +23,7 @@ palindrome.Add (7337, "This number is palindrome"); palindrome.Add (8338, "This 
 
 palindrome.Add (1441, "This number is palindrome"); palindrome.Add (2442, "This number is palindrome"); palindrome.Add (3443, "This number is palindrome");
 palindrome.Add (4444, "This number is palindrome"); palindrome.Add (5445, "This number is palindrome"); palindrome.Add (6446, "This number is palindrome");
-palindrome.Add (7447, "This number is palindrome"); palindrome.Add (8448, "This number is palindrome"); palindrome.Add (9449, "- This number is palindrome");
+palindrome.Add (7447, "This number is palindrome"); palindrome.Add (8448, "This number is palindrome"); palindrome.Add (9449, "This number is palindrome");
 
 palindrome.Add (1551, "This number is palindrome"); palindrome.Add (2552, "This number is palindrome"); palindrome.Add (3553, "This number is palindrome");
 palindrome.Add (4554, "This number is palindrome"); palindrome.Add (5555, "This number is palindrome"); palindrome.Add (6556, "This number is palindrome");
