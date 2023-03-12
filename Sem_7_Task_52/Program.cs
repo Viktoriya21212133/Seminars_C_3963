@@ -1,4 +1,4 @@
-﻿// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце
+// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце
 
 // Метод, который считывает данные от пользователя
 int ReadData (string message)
@@ -60,8 +60,5 @@ int max = ReadData ("Enter max massiv: ");
 int [,] array2D = Gen2DArray (countRow, countColumn, min, max);
 Print2DArray (array2D);
 
-// 
-Average2DArray(array2D);
-Console.WriteLine ();
 
 

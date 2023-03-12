@@ -40,7 +40,7 @@ void Print2DArray (int [,] array)
     }
 }
 
-//Подсчет по четным индексам
+//Подсчет по индексам главной диагонали
 int CountMainDiag (int [,] array)
 {
     int res = 0;
