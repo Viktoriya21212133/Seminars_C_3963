@@ -1,4 +1,4 @@
-// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце
+﻿// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце
 
 // Метод, который считывает данные от пользователя
 int ReadData (string message)
@@ -42,12 +42,16 @@ void Print2DArray (int [,] array)
 
 //Метод подсчета среднего арифметического
 void Average2DArray (int [,] array)
-{
-    for (int i = 0; i< array.GetLength(0); i++)
+{    
+    double avarage = 0;
+    for (int i = 0; i < array.GetLength(0); i++)
+        for (int j = 0; j < array.GetLength(1); j++)
+        
     {
-        for (int j = 0; j< array.GetLength(1); j++)
-            System.Console.Write($"{array[i,j],4}");   
-    } 
+        avarage = (avarage + array[i, j]);
+    }
+        avarage = avarage /array.GetLength(1);;
+        Console.Write(avarage + "; ");
 }
 
 // Вводим данные 
@@ -60,5 +64,6 @@ int max = ReadData ("Enter max massiv: ");
 int [,] array2D = Gen2DArray (countRow, countColumn, min, max);
 Print2DArray (array2D);
 
+Average2DArray(array2D);
 
 
